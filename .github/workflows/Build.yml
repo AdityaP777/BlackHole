@@ -1,9 +1,7 @@
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
 
-name: Build My Apps
+name: Black Hole Apk
 
 jobs:
   build:
